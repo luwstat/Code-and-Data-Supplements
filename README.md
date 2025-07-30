@@ -59,10 +59,10 @@ Each script is clearly labeled and organized for easy execution and interpretati
 
 This folder contains R code for computing the Integrated Brier Score (IBS) to evaluate the **out-of-sample predictive performance** of the proposed method, as described in the manuscript. These scripts illustrate how the IBS is used as a metric to evaluate and compare predictive performance for arbitrarily censored and left-truncated data under the proportional odds model.
 
-#### `ibs_demo_package_data.R`
+- `ibs_demo_package_data.R`
 This script demonstrates how to calculate the IBS using a **synthetic dataset** available in the `regPOspline` R package. The dataset contains arbitrarily censored and left-truncated observations. The procedure uses a 70/30 split for training and testing (500 observations total). The code is fully reproducible and intended for demonstration.
 
-#### `IBS_realdata1.R`
+- `IBS_realdata1.R`
 This script computes the IBS for **Real Data Application 1** (Metastatic Colorectal Cancer). The comparison is made between the proposed method and the `icenReg` package. 
 
 
