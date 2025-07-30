@@ -27,3 +27,29 @@ The `Simulation_Code` folder contains all the scripts used to fit models and sum
 - `do_rt_auto.R`: Automatically summarizes results from `project1EMfit.R` and generates the manuscript-ready tables.
 
 These scripts are organized to enable full reproducibility of the simulation section with minimal manual intervention. Output files are saved with descriptive filenames and match the tables and figures presented in the manuscript.
+
+
+### 3. Real Data Analysis Code
+
+This folder contains the R code used to produce the results presented in the **real data analysis** section of the manuscript.
+
+> **Note:** Due to data sharing restrictions, we are unable to include the raw datasets. Interested readers may request access to the data from the authors of the original studies:
+
+1. *Randomized phase III study of panitumumab with fluorouracil, leucovorin, and irinotecan (FOLFIRI) compared with FOLFIRI alone as second-line treatment in patients with metastatic colorectal cancer.*
+2. *Time From First Intercourse to First Sexually Transmitted Infection Diagnosis Among Adolescent Women.*
+
+#### **First Real Data Application (Metastatic Colorectal Cancer)**
+
+- `colorectal_split.R`: Splits the dataset based on **KRAS mutation status** and fits the model using the proposed method.
+- `colorectal_time_visual.R`: Visualizes the **time intervals** and **censoring types** of the survival outcome.
+- `mCRC_auto_selection.R`: Runs model selection by iterating over different numbers of **interior knots** and **spline degrees**, and returns the corresponding **AIC** and **BIC** values.
+
+#### **Second Real Data Application (Sexually Transmitted Infections)**
+
+- `STD_TV.R`: Fits the model using the proposed method.
+- `std_auto_degree_knots.R`: Performs model selection by varying the number of **interior knots** and **spline degrees**, and returns **AIC** and **BIC** values.
+- `visual_noofpartner.R`: Visualizes the distribution of one covariate: **number of lifetime partners at enrollment**.
+- `visual_survival_intervals.R`: Visualizes the **left-truncated survival intervals** and **censoring types** of the response variable.
+
+Each script is clearly labeled and organized for easy execution and interpretation of the corresponding results in the manuscript.
+
