@@ -43,7 +43,8 @@ This folder contains the R code used to produce the results presented in the **r
 #### **First Real Data Application (Metastatic Colorectal Cancer)**
 
 - `colorectal_split.R`: Splits the dataset based on **KRAS mutation status** and fits the model using the proposed method.
-- `regPO`: Split the dataset based on **KRAS mutation status** and fits the model using the comparison method **regPO**.
+- `regPO_split`: Split the dataset based on **KRAS mutation status** and fits the model using the comparison method **regPO**.
+- `icenreg_split`: Split the dataset based on **KRAS mutation status** and fits the model using the comparison method **incenReg**.
 - `colorectal_time_visual.R`: Visualizes the **time intervals** and **censoring types** of the survival outcome.
 - `mCRC_auto_selection.R`: Runs model selection by iterating over different numbers of **interior knots** and **spline degrees**, and returns the corresponding **AIC** and **BIC** values.
 
