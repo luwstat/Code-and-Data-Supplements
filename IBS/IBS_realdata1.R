@@ -77,7 +77,7 @@ R[my.data[,"y"] == 2] <- Inf
 TRT_C <- my.data[,"TRT_C"]
 Data <- cbind(L,R,TRT_C)
 
-set.seed(123)  # for reproducibility
+set.seed(10)  # for reproducibility
 
 # Create a random index
 train_index <- sample(1:nrow(Data), 0.7 * nrow(Data))  # 70% for training
