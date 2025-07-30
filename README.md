@@ -65,7 +65,10 @@ This folder contains R code for computing the Integrated Brier Score (IBS) to ev
 This script demonstrates how to calculate the IBS using a **synthetic dataset** available in the `regPOspline` R package. The dataset contains arbitrarily censored and left-truncated observations. The procedure uses a 70/30 split for training and testing (500 observations total). The code is fully reproducible and intended for demonstration.
 
 - `IBS_realdata1.R`
-This script computes the IBS for **Real Data Application 1** (Metastatic Colorectal Cancer). The comparison is made between the proposed method and the `icenReg` package. 
+This script computes the IBS for **Real Data Application 1** (Metastatic Colorectal Cancer). The comparison is made between the proposed method and the `icenReg` package.
+
+- `IBS_STD_TV.R`
+This script computes the IBS for **Real Data Application 2** (STI). No comparison method exists.
 
 
 
