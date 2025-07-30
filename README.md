@@ -35,8 +35,10 @@ This folder contains the R code used to produce the results presented in the **r
 
 > **Note:** Due to data sharing restrictions, we are unable to include the raw datasets. Interested readers may request access to the data from the authors of the original studies:
 
-1. *Randomized phase III study of panitumumab with fluorouracil, leucovorin, and irinotecan (FOLFIRI) compared with FOLFIRI alone as second-line treatment in patients with metastatic colorectal cancer.*
-2. *Time From First Intercourse to First Sexually Transmitted Infection Diagnosis Among Adolescent Women.*
+1. Peeters, M., Price, T. J., Cervantes, A., Sobrero, A. F., Ducreux, M., Hotko, Y., André, T., Chan, E., Lordick, F., Punt, C. J. A., Strickland, A. H., Wilson, G., Ciuleanu, T.-E., Roman, L., Van Cutsem, E., Tzekova, V., Collins, S., Oliner, K. S., Rong, A., Gansert, J., et al. (2010). *Randomized Phase III study of panitumumab with fluorouracil, leucovorin, and irinotecan (FOLFIRI) compared with FOLFIRI alone as second-line treatment in patients with metastatic colorectal cancer.* Journal of Clinical Oncology, 28(31), 4706–4713. https://doi.org/10.1200/JCO.2009.27.6055
+
+2. Tu, W., Batteiger, B. E., Wiehe, S. E., Ofner, S., Van Der Pol, B., Katz, B. P., Orr, D. P., & Fortenberry, J. D. (2009). *Time from first intercourse to first sexually transmitted infection diagnosis among adolescent women.* Archives of Pediatrics & Adolescent Medicine, 163(12), 1106–1111. https://doi.org/10.1001/archpediatrics.2009.203
+
 
 #### **First Real Data Application (Metastatic Colorectal Cancer)**
 
