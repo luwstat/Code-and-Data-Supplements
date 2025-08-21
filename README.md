@@ -28,7 +28,7 @@ The `Simulation_Code` folder contains all the scripts used to fit models and sum
 - `Ten_diff_initials.R`: Fits the Proportional Odds (PO) model from the `regPOspline` package to a built-in simulated dataset with left truncation and arbitrary censoring.  
    Uses 10 different initial values for the regression parameters:  
    (10,10), (8,8), (5,5), (1,1), (-10,-10), (0,0), (-1,-1), (-5,-5), (-8,-8), (10,-10).
-  - `Ten_random_initials.R`: Fits the Proportional Odds (PO) model from the `regPOspline` package to a built-in simulated dataset with left truncation and arbitrary censoring.  
+- `Ten_random_initials.R`: Fits the Proportional Odds (PO) model from the `regPOspline` package to a built-in simulated dataset with left truncation and arbitrary censoring.  
    Uses 10 sets of random initial values: regression parameters drawn from Uniform(−2, 2) and spline basis coefficients of the I-spline drawn from Uniform(0, 1).
 
 These scripts are organized to enable full reproducibility of the simulation section with minimal manual intervention. Output files are saved with descriptive filenames and match the tables and figures presented in the manuscript.
